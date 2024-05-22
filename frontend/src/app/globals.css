@@ -1,0 +1,125 @@
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::selection {
+  color: #f5efe6;
+  background: #153448;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.dropdown ul a:hover {
+  background-color: #dfd0b8 !important;
+  color: #153448;
+}
+
+.dropdown ul button:hover {
+  background-color: #dfd0b8 !important;
+  color: #153448;
+}
+
+.dropdown ul a:active {
+  background-color: #153448 !important;
+  color: #f5efe6;
+}
+
+.dropdown ul button:active {
+  background-color: #153448 !important;
+  color: #f5efe6;
+}
+
+[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  background-color: #153448;
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23777'><path d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'/></svg>");
+  background-size: 20px 20px;
+  height: 20px;
+  width: 20px;
+}
+
+.bg-p1 {
+  background-color: #4793af;
+  color: white;
+}
+
+.bg-p2 {
+  background-color: #8b322c;
+  color: white;
+}
+
+.btn-send {
+  border: 1px solid #8b322c;
+  color: #8b322c;
+}
+.btn-send:hover {
+  border: 1px solid #8b322c;
+  background-color: #8b322c;
+  color: white;
+}
+
+.btn-outline-gray {
+  border: 1px solid #f5efe6;
+  color: #f5efe6;
+}
+.btn-outline-gray:hover {
+  border: 1px solid #f5efe6;
+  background-color: #f5efe6;
+  color: #8b322c;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #153448;
+  border-radius: 50%; /* Makes it round */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.position-relative {
+  position: relative; /* Add position relative to parent */
+}
+
+.width-adjusted {
+  margin-left: 20px;
+  width: 80%; /* Set width to 70% of viewport width */
+}
+
+/* Define the media query with a name */
+@media (max-width: 576px) {
+  /* Apply styles for small screens */
+  .small-screen-margin-left {
+    margin-left: 20px;
+  }
+  .small-screen-textarea {
+    width: 100%; /* Set width to 70% of viewport width */
+  }
+  .width-adjusted {
+    margin-left: 20px;
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  /* Apply styles for small screens */
+  .small-screen-margin-left {
+    margin-left: 20px;
+  }
+}
